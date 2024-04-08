@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    position: relative; 
+}
+
+.header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    margin: 0; 
+}
+
+.header img {
+
+}
+.sidebar {
+    float: left;
+    width: 10%;
+    background-color: white;
+    padding: 20px;
+    height: 100vh; /* Volledige hoogte van het viewport */
+}
+.main-content {
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+
+      
+
+}
+/* Zorg voor clearing van de floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.main-content123 {
+    background-image: url("ASCWaterwijk_Blurred_Clubgebouw.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+
+  }
+.main-content2 {    
+    background-image: url("Dinand_VictoriaStadium_Blurred.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.main-content3 {    
+    background-image: url("Dinand_Voetbal_Blurred.png");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    color: darkviolet;
+}
+.main-content1 {    
+    background-image: url("PlainBlue.jpg");
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
